@@ -1,0 +1,20 @@
+1. Pruebas Unitarias ✅
+
+TestAutenticacion: Valida credenciales, rechaza passwords incorrectos, usuarios duplicados
+TestReservas: Solo muestra horarios disponibles, bloquea horarios ocupados
+TestGestionCitas: Cancelar, completar, y validar citas
+
+2. Pruebas de Integración ✅
+
+Paciente recién registrado puede crear su primera cita
+Reservar cita bloquea automáticamente el horario en agenda del médico
+Cancelar cita registra acción en auditoría
+
+3. Pruebas de Sistema ✅
+
+Flujo completo: Registrar → Login → Reservar → Notificación
+Generación de reportes por especialidad con datos consistentes
+Control de roles (administrador, médico, paciente)
+
+4. Preparado para Pruebas de Aceptación ✅
+La estructura permite agregar fácilmente pruebas donde un usuario real pruebe el flujo completo
